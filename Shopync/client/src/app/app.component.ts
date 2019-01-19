@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Message } from "../../../common/communication/message";
+import Products from "../assets/products.json";
 
 
 @Component({
