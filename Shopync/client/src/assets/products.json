@@ -1,0 +1,66 @@
+{
+    "Stores": [
+        {
+            "storeName" : "Metro",
+            "position":"2.5,-73.60",
+            "products": [
+                {
+                    "name": "Apple",
+                    "price": 0.75,
+                    "category": "Food"
+                }, 
+                {
+                    "name": "Banana",
+                    "price": 0.5,
+                    "category": "Food"    
+                },
+                {
+                    "name": "Milk",
+                    "price": 6.58,
+                    "category": "Food"    
+                },
+                {
+                    "name": "Chips",
+                    "price": 2.79,
+                    "category": "Food"    
+                },
+                {
+                    "name": "Ice cream",
+                    "price": 4.99,
+                    "category": "Food"    
+                }
+            ]
+        },
+        {
+            "storeName" : "Walmart",
+            "position" : "45.5;-115.70",
+            "products": [
+                {
+                    "name": "T-Shirt",
+                    "price": 9.97,
+                    "category": "Clothes"
+                }, 
+                {
+                    "name": "Headset",
+                    "price": 18,
+                    "category": "Electronic"    
+                },
+                {
+                    "name": "Milk",
+                    "price": 3.97,
+                    "category": "Food"    
+                },
+                {
+                    "name": "Chips",
+                    "price": 2.25,
+                    "category": "Food"    
+                },
+                {
+                    "name": "Lego",
+                    "price": 49.86,
+                    "category": "Games"    
+                }
+            ]
+        }
+    ]
+}
