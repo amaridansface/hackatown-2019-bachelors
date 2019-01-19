@@ -1,0 +1,11 @@
+@font-face {
+    font-family: flashlight;
+    src: url(flashlight.otf);
+}
+
+.logo {
+    color: lightseagreen;
+    padding: 14px;
+    font-size: 90px;;
+    font-family: flashlight;
+}
