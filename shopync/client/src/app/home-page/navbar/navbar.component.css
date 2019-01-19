@@ -1,0 +1,17 @@
+@font-face {
+    font-family: roboto;
+    src: url(roboto-Bold.ttf);
+ }
+
+ .navbar {
+     display: flex;
+     flex-direction: row;
+     background-color : rgb(173, 224, 222);
+ }
+
+ .menu-box {
+     padding: 10px;
+     font-family: roboto;
+     
+     
+ }
