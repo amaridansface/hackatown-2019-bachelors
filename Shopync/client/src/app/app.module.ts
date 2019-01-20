@@ -11,6 +11,7 @@ import { PartnersComponent } from './home-page/navbar/partners/partners.componen
 import { NavbarComponent } from './home-page/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './home-page/welcome/welcome.component';
+import { StartButtonComponent } from './home-page/welcome/start-button/start-button.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WelcomeComponent } from './home-page/welcome/welcome.component';
     LoginComponent,
     PartnersComponent,
     NavbarComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    StartButtonComponent
   ],
   imports: [
     BrowserModule,
