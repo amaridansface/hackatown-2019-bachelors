@@ -3,19 +3,15 @@
   <app-logo> </app-logo>
   
   <div></div>
-  
-  <div class = menu-box>
-    <app-partners></app-partners>
-  </div>
-  
-  <div class = menu-box>
-    <app-contact></app-contact>
-  </div>
-  
-  <div class = menu-box>
-    <app-login></app-login>
-  </div>
-  
+    <a routerLink = "/partners" class = menu-box>
+      <app-partners></app-partners>
+    </a>
+    <a routerLink = "/contact" class = menu-box>
+      <app-contact></app-contact>
+  </a>
+  <a class = menu-box routerLink = "/login">
+      <app-login></app-login>
+  </a>
   
   
   <router-outlet></router-outlet>
