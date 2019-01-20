@@ -6,7 +6,7 @@
 .navbar {
     background-color : rgb(173, 224, 222);
     display: grid;
-    grid-template-columns: 25% 15% 20% 20% 20%;
+    grid-template-columns: 25% 45% 10% 10% 10%;
 }
 
 .menu-box {
@@ -16,5 +16,6 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
+
 }
