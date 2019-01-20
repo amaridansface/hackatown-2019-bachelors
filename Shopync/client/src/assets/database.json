@@ -47,7 +47,7 @@
                 },
                 {
                     "name": "Milk",
-                    "price": 3.97,
+                    "price": 39.7,
                     "category": "Food"    
                 },
                 {
@@ -59,6 +59,17 @@
                     "name": "Lego",
                     "price": 49.86,
                     "category": "Games"    
+                }
+            ]
+        },
+        {
+            "storeName" : "Canadian Tire",
+            "position" : "34.2;57.5",
+            "products": [
+                {
+                    "name": "Hammer",
+                    "price": "19.99",
+                    "category": "Tools"
                 }
             ]
         }
