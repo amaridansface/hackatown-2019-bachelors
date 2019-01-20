@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './home-page/welcome/welcome.component';
 import { StartButtonComponent } from './home-page/welcome/start-button/start-button.component';
 import { Page1Component } from './page1/page1.component';
+import { QuestionComponent } from './page1/question/question.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { Page1Component } from './page1/page1.component';
     NavbarComponent,
     WelcomeComponent,
     StartButtonComponent,
-    Page1Component
+    Page1Component,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,

@@ -6,10 +6,10 @@
 .logo {
     color: rgb(8, 141, 134);
     padding: 14px;
-    font-size: 70px;;
+    font-size: 75px;;
     font-family: flashlight;
     display:flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer;
+    cursor: pointer;
 }
