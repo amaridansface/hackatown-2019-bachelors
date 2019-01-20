@@ -12,6 +12,7 @@ import { NavbarComponent } from './home-page/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './home-page/welcome/welcome.component';
 import { StartButtonComponent } from './home-page/welcome/start-button/start-button.component';
+import { Page1Component } from './page1/page1.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StartButtonComponent } from './home-page/welcome/start-button/start-but
     PartnersComponent,
     NavbarComponent,
     WelcomeComponent,
-    StartButtonComponent
+    StartButtonComponent,
+    Page1Component
   ],
   imports: [
     BrowserModule,
