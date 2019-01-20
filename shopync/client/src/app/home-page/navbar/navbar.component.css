@@ -5,18 +5,17 @@
 
 .navbar {
     background-color : rgb(173, 224, 222);
-}
-
-.sections {
-display: flex;
-flex-direction: row;
-float:right;
+    display: grid;
+    grid-template-columns: 25% 15% 20% 20% 20%;
 }
 
 .menu-box {
-vertical-align: middle;
-display: grid;
-cursor:pointer;
-padding: 10px;
-font-family: roboto;
+    cursor: pointer;
+    padding: 10px;
+    font-family: roboto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
 }
