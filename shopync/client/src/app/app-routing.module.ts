@@ -8,7 +8,7 @@ import { Page1Component } from './page1/page1.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 const routes: Routes = [
-  { path: '', component:HomePageComponent},
+  { path: 'homePage', component:HomePageComponent},
   { path: 'partners', component: PartnersComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'login', component: LoginComponent},
