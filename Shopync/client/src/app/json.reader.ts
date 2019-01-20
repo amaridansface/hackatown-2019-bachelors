@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import Products from '../assets/products.json';
+import Products from '../assets/database.json';
 
 @Component({
   selector: 'app-reading-json-files',
