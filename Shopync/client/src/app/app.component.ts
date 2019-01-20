@@ -23,7 +23,6 @@ export class AppComponent implements OnInit {
 
      public getLowestPrice() {
        console.log(this);
-       debugger;
        for(let k = 0; k < this.client.listGrocery.length; k++)
        {
         for(let i = 0; i < Database.Stores.length; i++)

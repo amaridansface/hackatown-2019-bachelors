@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+/*import { Component, OnInit } from "@angular/core";
 import { Product } from "./product";
 @Component({
     styleUrls: ["./app.component.css"],
@@ -24,4 +24,4 @@ export class AppShopync implements OnInit {
         console.log(this.listGrocery[1].name);
      }
     public ngOnInit(): void { }
-}
+}*/
