@@ -1,5 +1,5 @@
 export class Product {
     name: string;
-    price: string;
+    price: number;
     category: string; // À revoir!
   }
