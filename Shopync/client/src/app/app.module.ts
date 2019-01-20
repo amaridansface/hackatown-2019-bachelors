@@ -9,6 +9,7 @@ import { ContactComponent } from './home-page/navbar/contact/contact.component';
 import { LoginComponent } from './home-page/navbar/login/login.component';
 import { PartnersComponent } from './home-page/navbar/partners/partners.component';
 import { NavbarComponent } from './home-page/navbar/navbar.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './home-page/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   bootstrap: [AppComponent]
 })

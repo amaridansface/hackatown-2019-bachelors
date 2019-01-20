@@ -1,4 +1,4 @@
-import { Message } from "../../../common/communication/message";
+// import { Message } from "../../../common/communication/message";
 import { Component, OnInit } from "@angular/core";
 @Component({
     styleUrls: ["./app.component.css"],

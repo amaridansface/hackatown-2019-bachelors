@@ -3,15 +3,20 @@
     src: url(roboto-Bold.ttf);
  }
 
- .navbar {
-     display: flex;
-     flex-direction: row;
-     background-color : rgb(173, 224, 222);
- }
+.navbar {
+    background-color : rgb(173, 224, 222);
+}
 
- .menu-box {
-     padding: 10px;
-     font-family: roboto;
-     
-     
- }
+.sections {
+display: flex;
+flex-direction: row;
+float:right;
+}
+
+.menu-box {
+vertical-align: middle;
+display: grid;
+cursor:pointer;
+padding: 10px;
+font-family: roboto;
+}
